@@ -61,3 +61,5 @@ Le programme attend deux expressions régulières (une par ligne comme dans le f
 ## Contexte de création
 
 Le projet découle d'un cours de 3ème année de licence sur la théorie des langages, nous avons travaillé sur les automates et nous avions du faire un script Python pour comparer les automates. J'y ai ajouté du flex/bison que nous avons vu plus tard dans ce même cours pour m'exercer à ces outils. 
+
+Ce projet a été fait sur un autre compte git puis push ici par propreté. Ce compte servant de portfolio, cela sera le cas pour chaque projet.
