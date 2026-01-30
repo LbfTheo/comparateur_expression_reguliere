@@ -9,10 +9,10 @@ Il fonctionne comme un **transpilateur** : l'analyseur syntaxique (C) lit les ex
 * **Analyse Syntaxique :** Utilisation de Flex et Bison pour parser les expressions.
 * **Transpilation :** Génération automatique d'un script Python (`main.py`) contenant la logique des automates.
 * **Pipeline Automates complet (Python) :**
-    * Conversion Regex → NFA (Automate Fini Non Déterministe).
+    * Conversion Regex → AFN (Automate Fini Non Déterministe).
     * Suppression des $\epsilon$-transitions.
-    * Déterminisation (NFA → DFA).
-    * Complétion et Minimisation (Algorithme de Moore).
+    * Déterminisation (AFN → AFD).
+    * Complétion et Minimisation.
     * **Test d'équivalence** par isomorphisme des automates minimaux.
 
 ## Technologies Utilisées
@@ -35,7 +35,3 @@ Assurez-vous d'avoir les outils suivants installés sur votre machine :
 
 Grâce au `Makefile` inclus, la compilation est entièrement automatisée.
 
-1. **Cloner le projet :**
-   ```bash
-   git clone [https://github.com/ton-pseudo/comparateur_expression_reguliere.git](https://github.com/ton-pseudo/comparateur_expression_reguliere.git)
-   cd comparateur_expression_reguliere
