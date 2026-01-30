@@ -35,3 +35,29 @@ Assurez-vous d'avoir les outils suivants installés sur votre machine :
 
 Grâce au `Makefile` inclus, la compilation est entièrement automatisée.
 
+1. **Cloner le projet :**
+```bash
+   git clone [https://github.com/LbfThep/comparateur_expression_reguliere.git](https://github.com/LbfTheo/comparateur_expression_reguliere.git)
+   cd comparateur_expression_reguliere
+
+2. **Compiler le projet :**
+```bash
+   make
+
+Cela va générer l'exécutable nommé **generator**.
+
+## Utilisation
+
+1. **Générer le script de comparaison : **
+```bash
+   ./generator
+
+Le programme attend deux expressions régulières (une par ligne comme dans le fichier test).
+
+2. **Lancer la vérification : **
+```bash
+   python3 main.py
+
+## Contexte de création
+
+Le projet découle d'un cours de 3ème année de licence sur la théorie des langages, nous avons travaillé sur les automates et nous avions du faire un script Python pour comparer les automates. J'y ai ajouté du flex/bison que nous avons vu plus tard dans ce même cours pour m'exercer à ces outils. 
