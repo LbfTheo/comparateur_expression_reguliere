@@ -39,7 +39,7 @@ Grâce au `Makefile` inclus, la compilation est entièrement automatisée.
 ```bash
    git clone [https://github.com/LbfThep/comparateur_expression_reguliere.git](https://github.com/LbfTheo/comparateur_expression_reguliere.git)
    cd comparateur_expression_reguliere
-
+```
 2. **Compiler le projet :**
 ```bash
    make
