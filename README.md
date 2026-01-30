@@ -48,13 +48,13 @@ Cela va générer l'exécutable nommé **generator**.
 
 ## Utilisation
 
-1. **Générer le script de comparaison : **
+1. **Générer le script de comparaison :**
 ```bash
    ./generator
 ```
 Le programme attend deux expressions régulières (une par ligne comme dans le fichier test).
 
-2. **Lancer la vérification : **
+2. **Lancer la vérification :**
 ```bash
    python3 main.py
 ```
